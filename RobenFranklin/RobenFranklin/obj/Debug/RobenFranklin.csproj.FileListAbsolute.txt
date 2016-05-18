@@ -1,0 +1,12 @@
+C:\Users\DP Akrackish\Documents\GitHub\RoBenFranklin\RobenFranklin\RobenFranklin\bin\Debug\RobenFranklin.exe.config
+C:\Users\DP Akrackish\Documents\GitHub\RoBenFranklin\RobenFranklin\RobenFranklin\bin\Debug\RobenFranklin.exe
+C:\Users\DP Akrackish\Documents\GitHub\RoBenFranklin\RobenFranklin\RobenFranklin\bin\Debug\RobenFranklin.pdb
+C:\Users\DP Akrackish\Documents\GitHub\RoBenFranklin\RobenFranklin\RobenFranklin\obj\Debug\RobenFranklin.csprojResolveAssemblyReference.cache
+C:\Users\DP Akrackish\Documents\GitHub\RoBenFranklin\RobenFranklin\RobenFranklin\obj\Debug\RobenFranklin.exe
+C:\Users\DP Akrackish\Documents\GitHub\RoBenFranklin\RobenFranklin\RobenFranklin\obj\Debug\RobenFranklin.pdb
+C:\Users\DP Akrackish\Documents\GitHub\RoBenFranklin\RobenFranklin\RobenFranklin\bin\Debug\Hammock.ClientProfile.dll
+C:\Users\DP Akrackish\Documents\GitHub\RoBenFranklin\RobenFranklin\RobenFranklin\bin\Debug\Newtonsoft.Json.dll
+C:\Users\DP Akrackish\Documents\GitHub\RoBenFranklin\RobenFranklin\RobenFranklin\bin\Debug\TweetSharp.dll
+C:\Users\DP Akrackish\Documents\GitHub\RoBenFranklin\RobenFranklin\RobenFranklin\bin\Debug\Hammock.ClientProfile.pdb
+C:\Users\DP Akrackish\Documents\GitHub\RoBenFranklin\RobenFranklin\RobenFranklin\bin\Debug\Newtonsoft.Json.xml
+C:\Users\DP Akrackish\Documents\GitHub\RoBenFranklin\RobenFranklin\RobenFranklin\bin\Debug\TweetSharp.pdb
