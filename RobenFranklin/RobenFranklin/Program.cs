@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -18,12 +19,21 @@ namespace RobenFranklin
 
         private static void UpdateRoBenFranklin()
         {
+            AppSettingsReader settingsReader =new AppSettingsReader();
+
             MarkovChain chain = new MarkovChain(10);
             FeedText(chain);
             List<string> tweets = new List<string>();
 
-            var twitterApp = new TwitterService("K47rQlImnCUoRFTnVtB2yJfaN", "5Wv4cjWfRsWZO5LuWLxldCh0AU8GBYQVAyfODnhzhkGEp5r1BG");
-            twitterApp.AuthenticateWith("722475012255563776-Ukvwm59B9U94AGo014K0TJA2h5zUWot", "v1qWB8Bs9KPZHyQccHozpsGb85wHrRGYW76lJEsdCd6Y9");
+            var twitterApp = new TwitterService((string)settingsReader.GetValue("ConsumerKey",
+                                                     typeof(String)),
+                                                (string)settingsReader.GetValue("ConsumerSecret",
+                                                     typeof(String)));
+
+            twitterApp.AuthenticateWith((string)settingsReader.GetValue("TokenKey",
+                                                     typeof(String)),
+                                                (string)settingsReader.GetValue("TokenSecret",
+                                                     typeof(String)));
 
             for (int i = 1; i <= 15; i++)
             {
